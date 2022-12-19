@@ -13,7 +13,7 @@ function handleSubmit(event) {
     const { email, password } = elements;
 
     if (email === "" || password === "") {
-        return alert("All fields must be filled. Please fill in all the fields!");
+        return alert("Всі поля повинні бути заповнені.");
     }
     
     console.log(elements);
